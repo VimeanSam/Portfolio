@@ -1,2 +1,2 @@
-# Portfolio
-Resume website coded in React.js
+# Vimean-Website
+This is my portfolio website that I designed and developed using React.js, React-Bootstrap, and CSS for website's functionalities and responsiveness. My skills, projects, and courses are showcased in this website.

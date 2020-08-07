@@ -1,0 +1,270 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f1f1f1!important;
+}
+
+.portfolioContainer{
+  padding-top: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#root{
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  height: 100%;
+}
+
+button, link {
+  cursor: pointer;
+}
+
+.centered{
+  text-align: center;
+}
+
+#greetings{
+  text-align: center;
+  font-weight: 600;
+  font-size: 64px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#centered{
+  text-align: center;
+  font-size: 40px;
+}
+
+#hello{
+  text-align: center;
+  font-weight: 600;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column-3{
+  float: left;
+  width: 75%;
+  padding: 10px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cardTab{
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.picture{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.multi-column {
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -moz-column-fill: auto;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: auto;
+  column-count: 2;
+  column-gap: 10px;
+  column-fill: auto;
+}
+
+.testimonial {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.testimonial::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.testimonial img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+.testimonial span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.projectPic:hover{
+  cursor: pointer;
+}
+
+.linkIcon:hover{
+  cursor: pointer;
+  color: green !important;
+}
+
+footer {
+  background-color: rgb(59, 59, 59);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+  .column-3{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  #greetings{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3px;
+    line-height: 60px;
+  }
+  #centered{
+    text-align: center;
+    font-size: 24px;
+  }
+
+}
+
+@media only screen and (max-width: 1300px){
+  .portfolioContainer{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 900px) {
+  .column {
+    width: 30%;
+  }
+  .column-3{
+    width: 70%;
+  }
+}
+
+.header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 35vh;
+  min-height: 5rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.text{
+  font-size: 2vw;
+}
+
+.control{
+    text-align: center;
+}
+
+.arrow {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 380px){
+  .text{
+    font-size: 8vw;
+  }
+}
