@@ -128,6 +128,7 @@ class App extends Component {
   render() {
         const list = projectLists.map((data, index) => 
         (index >= this.state.start && index <= this.state.stop) &&
+        <Fade>
         <div className="card mb-3" key={index}>
             <div className="row no-gutters">
                 <div className="col-md-4">
@@ -151,6 +152,7 @@ class App extends Component {
                 </div>
             </div>
         </div>
+        </Fade>
         )
         const slideshow = this.state.slides.map((data) => 
                 require(`./projectPics/${data}.jpg`)
@@ -322,7 +324,7 @@ class App extends Component {
                                             <span className="arrowDisabled round" style={{textDecoration: 'none'}}>&#9665;</span>
                                     }
                                    
-                                    <span> Page <b>{this.state.page}</b> of {Math.ceil(projectLists.length/3)} </span>
+                                    <span style={{fontSize: '19px'}}> Page <b>{this.state.page}</b> of {Math.ceil(projectLists.length/3)} </span>
                                     {
                                         (this.state.page + 1 <= Math.ceil(projectLists.length/3))?
                                             <span className="arrow round" style={{textDecoration: 'none', backgroundColor: `rgb(${this.state.variant})`}} onClick={this.nextPage}>&#9655;</span>
