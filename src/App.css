@@ -96,13 +96,13 @@ button, link {
 
 .multi-column {
   -moz-column-count: 2;
-  -moz-column-gap: 30px;
+  -moz-column-gap: 40px;
   -moz-column-fill: auto;
   -webkit-column-count: 2;
-  -webkit-column-gap: 30px;
+  -webkit-column-gap: 40px;
   -webkit-column-fill: auto;
   column-count: 2;
-  column-gap: 30px;
+  column-gap: 40px;
   column-fill: balance;
   word-wrap: normal;
 }
@@ -246,10 +246,10 @@ footer {
 
 @media (max-width: 1300px) and (min-width: 900px) {
   .column {
-    width: 30%;
+    width: 40%;
   }
   .column-3{
-    width: 70%;
+    width: 60%;
   }
 }
 
