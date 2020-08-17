@@ -12,7 +12,7 @@
       "description": "A real-time multiplayer web version of 6 cards golf card game. I programmed the backend in node.js, organize MongoDB for storage, manage socket.io for player turns, connection, disconnection, design client interface using React.js, and develop various card themes using photoshop.",
       "pics": ["golf_1", "golf_2", "golf_3", "golf_4", "golf_5", "golf_6", "golf_7"],
       "mainpic": "golf_5",
-      "skills": "Node.js, Express, React.js, Socket.io, MongoDB",
+      "skills": "Node.js, Express, React.js, Socket.IO, MongoDB",
       "link": "https://sixcardsgolf.herokuapp.com/"
     },
     {"title": "REST API", 
@@ -61,14 +61,6 @@
       "pics": ["shell_1", "shell_2", "shell_3"],
       "mainpic": "shell_2",
       "skills": "C, Linux",
-      "link": ""
-    },
-    {"title": "Calculator GUI", 
-      "githubLink": "https://github.com/VimeanSam/CalculatorGUI",
-      "pics": ["calc_1", "calc_2", "calc_3", "calc_4", "calc_5", "calc_6"],
-      "description": "This program is an implementation of a calculator that follows mathematical order of operations (PEMDAS) of infix operation to function the Graphical User Interface. This program uses Java ArrayLists and Stack data structures to evaluate the operation.",
-      "mainpic": "calc_1",
-      "skills": "Java",
       "link": ""
     }
   ]
