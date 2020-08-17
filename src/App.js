@@ -128,8 +128,8 @@ class App extends Component {
   render() {
         const list = projectLists.map((data, index) => 
         (index >= this.state.start && index <= this.state.stop) &&
-        <Fade>
-        <div className="card mb-3" key={index}>
+        <Fade key={index}>
+        <div className="card mb-3">
             <div className="row no-gutters">
                 <div className="col-md-4">
                 <img className="card-img projectImg" id={data.title} onClick={this.showSlides} src={require(`./projectPics/${data.mainpic}.jpg`)} alt="" />
