@@ -184,7 +184,7 @@ class App extends Component {
                                 <Zoom>
                                 <h1 style={{marginTop: '10px', marginBottom: '20px'}}><b>Vimean Sam</b></h1>
                                     <p style={{fontSize: '19px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaHome/></span> California</p>
-                                    <p style={{fontSize: '19px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaEnvelope/></span> <a target="_blank" href="mailto:vimeansam2017@gmail.com" rel="noopener noreferrer">vimeansam@gmail.com</a></p>
+                                    <p style={{fontSize: '19px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaEnvelope/></span> <a target="_blank" href="mailto:vimeansam2017@gmail.com" rel="noopener noreferrer">vimeansam2017@gmail.com</a></p>
                                     <p style={{fontSize: '19px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaPhone/></span> (209)-968-8736</p>
                                     <p style={{fontSize: '19px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaPaperclip/></span> <a target="_blank" href={resume} rel="noopener noreferrer">Resume</a></p>
                                     <p style={{fontSize: '19px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaGithub/></span> <a target="_blank" href="https://github.com/VimeanSam" rel="noopener noreferrer">GitHub</a></p>
