@@ -5,6 +5,7 @@ import Typist from 'react-typist';
 import photo from './Images/Me.jpg';
 import ultimo from './Images/ultimo.png';
 import acm from './Images/acmlogo.png';
+import edduus from './Images/edduus.png';
 import sfsu from './Images/sfsu.png';
 import {FaEnvelope, FaHome, FaPhone, FaCode, FaDatabase, FaBrain, FaTools, FaBriefcase, FaCalendarAlt, FaLaptopCode, FaGraduationCap, FaGlobe, FaGithub, FaPaperclip, FaInfoCircle, FaCommentAlt, FaLinkedin, FaBasketballBall} from "react-icons/fa";
 import Lightbox from 'react-image-lightbox';
@@ -251,7 +252,16 @@ class App extends Component {
                                 <Zoom>
                                 <h2><span style={{color: `rgb(${this.state.variant})`}}><FaBriefcase/></span><b> Work Experience</b></h2>
                                 <div style={{padding: '15px'}}>
-                                    <h4>Full Stack Developer</h4>
+                                    <h4>Software Engineer (Remote)</h4>
+                                    <img src={edduus} height="40px" width="40px" title="Edduus" alt="edduus"></img>
+                                    <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Aug 2020 - present</h5>
+                                    <ul className="bullet-point">
+                                        <li>Developing payment gateway via <b style={{color: `rgb(${this.state.variant})`}}>Stripe API</b> for Edduus Livestream website using <b style={{color: `rgb(${this.state.variant})`}}>PHP</b>,
+                                            <b style={{color: `rgb(${this.state.variant})`}}> HTML</b>, <b style={{color: `rgb(${this.state.variant})`}}> Postgres</b>, and <b style={{color: `rgb(${this.state.variant})`}}> JavaScript</b>.
+                                        </li>
+                                    </ul>
+                                    <hr></hr>
+                                    <h4>Web Developer (Freelance)</h4>
                                     <img src={acm} height="50px" width="55px" title="ACM" alt="ACM"></img>
                                     <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> May 2020 - Aug 2020</h5>
                                     <ul className="bullet-point">
@@ -265,8 +275,6 @@ class App extends Component {
                                             Unified <b style={{color: `rgb(${this.state.variant})`}}>frontend</b> team and designed <b style={{color: `rgb(${this.state.variant})`}}>UI</b>/<b style={{color: `rgb(${this.state.variant})`}}>UX</b> interface using <b style={{color: `rgb(${this.state.variant})`}}>React.js</b> for users to view/comment on ACM posts in real-time.
                                         </li>
                                     </ul>
-                                    <hr></hr>
-                                    <h4>Freelance Web Developer</h4>
                                     <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Apr 2020</h5>
                                     <ul className="bullet-point">
                                         <li>Designed and developed a static <a target="_blank" href="https://bagelsnmore.netlify.app/" rel="noopener noreferrer">website</a> to display contact information and menu for a local sandwich shop in my hometown.
