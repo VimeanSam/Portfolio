@@ -312,14 +312,14 @@ header .overlay {
 
 .arrow {
     display: inline-block;
-    padding: 8px 14px;
+    padding: 10px 16px;
     font-size: 18px;
     color: white;
 }
 
 .arrowDisabled {
   display: inline-block;
-  padding: 8px 14px;
+  padding: 10px 16px;
   font-size: 18px;
   color: white;
   background-color: gray;

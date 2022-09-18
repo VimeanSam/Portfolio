@@ -4,14 +4,13 @@ import 'react-typist/dist/Typist.css';
 import Typist from 'react-typist';
 import photo from './Images/Me.jpg';
 import ultimo from './Images/ultimo.png';
-import acm from './Images/acmlogo.png';
 import edduus from './Images/edduus.png';
 import sfsu from './Images/sfsu.png';
-import {FaEnvelope, FaHome, FaPhone, FaCode, FaDatabase, FaBrain, FaTools, FaBriefcase, FaCalendarAlt, FaLaptopCode, FaGraduationCap, FaGlobe, FaGithub, FaPaperclip, FaInfoCircle, FaCommentAlt, FaLinkedin, FaBasketballBall} from "react-icons/fa";
+import {FaEnvelope, FaHome, FaPhone, FaCode, FaDatabase, FaBrain, FaTools, FaBriefcase, FaCalendarAlt, FaLaptopCode, FaGraduationCap, FaGlobe, FaGithub, FaPaperclip, FaInfoCircle, FaCommentAlt, FaLinkedin, FaBasketballBall, FaChevronLeft, FaChevronRight} from "react-icons/fa";
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import projectLists from './api/Projects.json';
-import resume from './Files/VimeanSamResume2020.pdf';
+import resume from './Files/VimeanSamResume2023.pdf';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
  
@@ -204,17 +203,17 @@ class App extends Component {
                                         <li>HTML</li>
                                         <li>CSS</li>
                                         <li>Java</li>
-                                        <li>C++</li>
-                                        <li>C</li>
+                                        <li>PHP</li>
                                         <li>Python</li>
                                         <li>Go</li>
-                                        <li>React.js</li>
+                                        <li>React.js/React Native</li>
                                     </ul>
                                 </div>
                                 <span className="category"><span style={{color: `rgb(${this.state.variant})`}}><FaDatabase/></span> Database Languages</span>
                                 <div>
                                     <ul className="multi-column">
                                         <li>MySQL</li>
+                                        <li>PostgreSQL</li>
                                         <li>MongoDB</li>
                                     </ul>
                                 </div>
@@ -243,6 +242,7 @@ class App extends Component {
                                         <li>Watch movies</li>
                                         <li>Workout</li>
                                         <li>Skateboarding</li>
+                                        <li>Gaming</li>
                                     </ul>
                                 </Zoom>
                             </div>
@@ -252,37 +252,38 @@ class App extends Component {
                                 <Zoom>
                                 <h2><span style={{color: `rgb(${this.state.variant})`}}><FaBriefcase/></span><b> Work Experience</b></h2>
                                 <div style={{padding: '15px'}}>
-                                    <h4>Software Engineer (Remote)</h4>
+                                    <h4>Full-Stack Software Engineer (Remote)</h4>
                                     <img src={edduus} height="40px" width="40px" title="Edduus" alt="edduus"></img>
                                     <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Aug 2020 - present</h5>
                                     <ul className="bullet-point">
-                                        <li>Developing payment gateway via <b style={{color: `rgb(${this.state.variant})`}}>Stripe API</b> for Edduus Livestream website using <b style={{color: `rgb(${this.state.variant})`}}>PHP</b>,
-                                            <b style={{color: `rgb(${this.state.variant})`}}> HTML</b>, <b style={{color: `rgb(${this.state.variant})`}}> Postgres</b>, and <b style={{color: `rgb(${this.state.variant})`}}> JavaScript</b>.
+                                        <li>
+                                            Work with various server-side scripting languages such as <b style={{color: `rgb(${this.state.variant})`}}>Node.js</b> and <b style={{color: `rgb(${this.state.variant})`}}>PHP </b> 
+                                            to serve web and mobile application.
+                                        </li>
+                                        <li>
+                                           Operate No-SQL <b style={{color: `rgb(${this.state.variant})`}}>MongoDB</b> and relational <b style={{color: `rgb(${this.state.variant})`}}>PostgreSQL</b> database systems that efficiently
+                                           store information for various applications.
+                                        </li>
+                                        <li>
+                                            Compose elegant, responsive and accessible <b style={{color: `rgb(${this.state.variant})`}}>React.js</b> web applications and <b style={{color: `rgb(${this.state.variant})`}}>React Native</b> mobile
+                                           application.
                                         </li>
                                     </ul>
+
                                     <hr></hr>
                                     <h4>Web Developer (Freelance)</h4>
-                                    <img src={acm} height="50px" width="55px" title="ACM" alt="ACM"></img>
-                                    <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> May 2020 - Aug 2020</h5>
+                                    <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Apr 2020 - Aug 2020</h5>
                                     <ul className="bullet-point">
                                         <li>
-                                            Contributed to the development of a <a target="_blank" href="https://sfsu-acm.club/posts" rel="noopener noreferrer">website</a> for ACM organization at SFSU.
+                                            Designed and developed a static <a target="_blank" href="https://bagelsnmore.netlify.app/" rel="noopener noreferrer">website</a>  (<b style={{color: `rgb(${this.state.variant})`}}>HTML</b>, <b style={{color: `rgb(${this.state.variant})`}}>CSS</b>, <b style={{color: `rgb(${this.state.variant})`}}>BootStrap</b>, and <b style={{color: `rgb(${this.state.variant})`}}>JavaScript </b>)
+                                            to display contact information and menu for a local sandwich shop in my hometown.
                                         </li>
                                         <li>
-                                            Designed and integrated <b style={{color: `rgb(${this.state.variant})`}}>Markdown</b> and <b style={{color: `rgb(${this.state.variant})`}}>HTML</b> compatible post page to <b style={{color: `rgb(${this.state.variant})`}}>Node.js/Express</b> server, <b style={{color: `rgb(${this.state.variant})`}}>MongoDB</b> database, and <b style={{color: `rgb(${this.state.variant})`}}>Socket.IO</b> network.
-                                        </li>
-                                        <li>
-                                            Unified <b style={{color: `rgb(${this.state.variant})`}}>frontend</b> team and designed <b style={{color: `rgb(${this.state.variant})`}}>UI</b>/<b style={{color: `rgb(${this.state.variant})`}}>UX</b> interface using <b style={{color: `rgb(${this.state.variant})`}}>React.js</b> for users to view/comment on ACM posts in real-time.
+                                            Contributed to the development of a <b style={{color: `rgb(${this.state.variant})`}}>Markdown</b> and <b style={{color: `rgb(${this.state.variant})`}}>HTML</b> compatible web application for (Association for Computing Machinery) ACM organization at SFSU
+                                            (<b style={{color: `rgb(${this.state.variant})`}}>React.js</b>, <b style={{color: `rgb(${this.state.variant})`}}>Node.js/Express</b>, <b style={{color: `rgb(${this.state.variant})`}}>MongoDB</b>, and <b style={{color: `rgb(${this.state.variant})`}}>Socket.IO</b>).
                                         </li>
                                     </ul>
-                                    <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Apr 2020</h5>
-                                    <ul className="bullet-point">
-                                        <li>Designed and developed a static <a target="_blank" href="https://bagelsnmore.netlify.app/" rel="noopener noreferrer">website</a> to display contact information and menu for a local sandwich shop in my hometown.
-                                        </li>
-                                        <li>Used <b style={{color: `rgb(${this.state.variant})`}}>HTML</b>, <b style={{color: `rgb(${this.state.variant})`}}>CSS</b>, <b style={{color: `rgb(${this.state.variant})`}}>BootStrap</b>, and <b style={{color: `rgb(${this.state.variant})`}}>JavaScript </b>
-                                        for client-side development and host website deployment with <b style={{color: `rgb(${this.state.variant})`}}>Netlify</b>.
-                                        </li>
-                                    </ul>
+
                                     <hr></hr>
                                     <h4>Software Engineer Intern</h4>
                                     <img src={ultimo} height="40px" width="150px" title="UltimoSoft" alt="ultimo"></img>
@@ -327,17 +328,17 @@ class App extends Component {
                                 <div className="control">
                                     {
                                         (this.state.page-1 > 0)?
-                                            <span className="arrow round" style={{textDecoration: 'none', backgroundColor: `rgb(${this.state.variant})`}} onClick={this.previousPage}>&#9665;</span>
+                                            <span className="arrow round" style={{textDecoration: 'none', backgroundColor: `rgb(${this.state.variant})`}} onClick={this.previousPage}><FaChevronLeft/></span>
                                             :
-                                            <span className="arrowDisabled round" style={{textDecoration: 'none'}}>&#9665;</span>
+                                            <span className="arrowDisabled round" style={{textDecoration: 'none'}}><FaChevronLeft/></span>
                                     }
                                    
-                                    <span style={{fontSize: '19px'}}> Page <b>{this.state.page}</b> of {Math.ceil(projectLists.length/3)} </span>
+                                    <span style={{fontSize: '19px', padding: '0 1em'}}> Page <b>{this.state.page}</b> of {Math.ceil(projectLists.length/3)} </span>
                                     {
                                         (this.state.page + 1 <= Math.ceil(projectLists.length/3))?
-                                            <span className="arrow round" style={{textDecoration: 'none', backgroundColor: `rgb(${this.state.variant})`}} onClick={this.nextPage}>&#9655;</span>
+                                            <span className="arrow round" style={{textDecoration: 'none', backgroundColor: `rgb(${this.state.variant})`}} onClick={this.nextPage}><FaChevronRight/></span>
                                             :
-                                            <span className="arrowDisabled round" style={{textDecoration: 'none'}}>&#9655;</span>
+                                            <span className="arrowDisabled round" style={{textDecoration: 'none'}}><FaChevronRight/></span>
                                     }
                                    
                                 </div>
@@ -366,7 +367,7 @@ class App extends Component {
                 <br></br>
             <footer>
                 <br></br>
-                <p style={{fontSize: '19px'}}>Simple static portfolio website created by Vimean Sam using React.js and CSS</p>
+                <p style={{fontSize: '19px'}}>Simple static portfolio website created by Vimean Sam using React.js and powered by Netlify</p>
             </footer>
         </React.Fragment>
         );
