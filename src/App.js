@@ -268,6 +268,12 @@ class App extends Component {
                                             Compose elegant, responsive and accessible <b style={{color: `rgb(${this.state.variant})`}}>React.js</b> web applications and <b style={{color: `rgb(${this.state.variant})`}}>React Native</b> mobile
                                            application.
                                         </li>
+                                        <li>
+                                            Deep understanding of system tools such as <b style={{color: `rgb(${this.state.variant})`}}>Git</b>, <b style={{color: `rgb(${this.state.variant})`}}>Linux</b>, <b style={{color: `rgb(${this.state.variant})`}}>NGINX</b> and API platforms such as <b style={{color: `rgb(${this.state.variant})`}}>Stripe</b>, <b style={{color: `rgb(${this.state.variant})`}}>Firebase</b>.
+                                        </li>
+                                        <li>
+                                            Traverse across all levels of code stack and produce efficient solutions for complex problems.
+                                        </li>
                                     </ul>
 
                                     <hr></hr>
