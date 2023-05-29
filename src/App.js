@@ -192,7 +192,7 @@ class App extends Component {
                                 <hr></hr>
                                 <h2 style={{marginBottom: '10px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaInfoCircle/></span><b> About</b></h2>
                                 <p style={{fontSize: '19px'}}>Greetings, my name is Vimean Sam. I am a San Francisco State University Alumni with a keen interest in full stack web development. 
-                                    I am a highly motivated individual who is successful in both individual and team settings.
+                                    I am a highly motivated and creative individual who is successful in both individual and team settings.
                                 </p>
                                 <hr></hr>
                                 <h2 style={{marginBottom: '10px'}}><span style={{color: `rgb(${this.state.variant})`}}><FaBrain/></span><b> Skills</b></h2>
@@ -223,15 +223,16 @@ class App extends Component {
                                         <li>Photoshop</li>
                                         <li>Microsoft Office</li>
                                         <li>Linux</li>
+                                        <li>AWS</li>
                                     </ul>
                                 </div>
                                 <span className="category"><span style={{color: `rgb(${this.state.variant})`}}><FaCommentAlt/></span> Soft Skills</span>
                                 <div>
                                     <ul className="multi-column">
                                         <li>Teamwork</li>
-                                        <li>Adaptibility</li>
-                                        <li>Communication</li>
+                                        <li>Creativity</li>
                                         <li>Problem-solving</li>
+                                        <li>Communication</li>
                                     </ul>
                                 </div>
                                 <hr></hr>
@@ -257,6 +258,9 @@ class App extends Component {
                                     <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Aug 2020 - present</h5>
                                     <ul className="bullet-point">
                                         <li>
+                                            Implement a chat interface in React Native app and Firebase for notifications which allows users to communicate with one another within the application.
+                                        </li>
+                                        <li>
                                             Work with various server-side scripting languages such as <b style={{color: `rgb(${this.state.variant})`}}>Node.js</b> and <b style={{color: `rgb(${this.state.variant})`}}>PHP </b> 
                                             to serve web and mobile application.
                                         </li>
@@ -273,20 +277,6 @@ class App extends Component {
                                         </li>
                                         <li>
                                             Traverse across all levels of code stack and produce efficient solutions for complex problems.
-                                        </li>
-                                    </ul>
-
-                                    <hr></hr>
-                                    <h4>Web Developer (Freelance)</h4>
-                                    <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Apr 2020 - Aug 2020</h5>
-                                    <ul className="bullet-point">
-                                        <li>
-                                            Designed and developed a static <a target="_blank" href="https://bagelsnmore.netlify.app/" rel="noopener noreferrer">website</a>  (<b style={{color: `rgb(${this.state.variant})`}}>HTML</b>, <b style={{color: `rgb(${this.state.variant})`}}>CSS</b>, <b style={{color: `rgb(${this.state.variant})`}}>BootStrap</b>, and <b style={{color: `rgb(${this.state.variant})`}}>JavaScript </b>)
-                                            to display contact information and menu for a local sandwich shop in my hometown.
-                                        </li>
-                                        <li>
-                                            Contributed to the development of a <b style={{color: `rgb(${this.state.variant})`}}>Markdown</b> and <b style={{color: `rgb(${this.state.variant})`}}>HTML</b> compatible web application for (Association for Computing Machinery) ACM organization at SFSU
-                                            (<b style={{color: `rgb(${this.state.variant})`}}>React.js</b>, <b style={{color: `rgb(${this.state.variant})`}}>Node.js/Express</b>, <b style={{color: `rgb(${this.state.variant})`}}>MongoDB</b>, and <b style={{color: `rgb(${this.state.variant})`}}>Socket.IO</b>).
                                         </li>
                                     </ul>
 
