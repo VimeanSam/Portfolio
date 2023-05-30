@@ -5,22 +5,13 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
-    "react-addons-css-transition-group": "^15.6.2",
-    "react-animated-progress-bar": "^1.0.4",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-icons": "^3.9.0",
     "react-image-lightbox": "^5.1.0",
-    "react-page-scroller": "^2.3.1",
-    "react-pager": "^1.3.3",
-    "react-progressbar": "^1.4.6",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^5.0.1",
-    "react-scroll-to-component": "^1.0.2",
-    "react-scrolling-nav": "^1.1.5",
-    "react-simple-modal-slideshow": "^1.0.1",
-    "react-transition-group": "^4.3.0",
     "react-typist": "^2.0.5"
   },
   "scripts": {
