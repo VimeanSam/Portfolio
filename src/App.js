@@ -258,7 +258,7 @@ class App extends Component {
                                     <h5 style={{color: `rgb(${this.state.variant})`, marginTop: '10px'}}><span><FaCalendarAlt/></span> Aug 2020 - present</h5>
                                     <ul className="bullet-point">
                                         <li>
-                                            Implement a chat interface in React Native app and Firebase for notifications which allows users to communicate with one another within the application.
+                                            Implement a chat interface in  <b style={{color: `rgb(${this.state.variant})`}}>React Native</b> and <b style={{color: `rgb(${this.state.variant})`}}>Firebase</b> for notifications which allows users to communicate with one another within the application.
                                         </li>
                                         <li>
                                             Work with various server-side scripting languages such as <b style={{color: `rgb(${this.state.variant})`}}>Node.js</b> and <b style={{color: `rgb(${this.state.variant})`}}>PHP </b> 
@@ -269,8 +269,7 @@ class App extends Component {
                                            store information for various applications.
                                         </li>
                                         <li>
-                                            Compose elegant, responsive and accessible <b style={{color: `rgb(${this.state.variant})`}}>React.js</b> web applications and <b style={{color: `rgb(${this.state.variant})`}}>React Native</b> mobile
-                                           application.
+                                            Compose an elegant, responsive and accessible <b style={{color: `rgb(${this.state.variant})`}}>React.js</b> web application.
                                         </li>
                                         <li>
                                             Deep understanding of system tools such as <b style={{color: `rgb(${this.state.variant})`}}>Git</b>, <b style={{color: `rgb(${this.state.variant})`}}>Linux</b>, <b style={{color: `rgb(${this.state.variant})`}}>NGINX</b> and API platforms such as <b style={{color: `rgb(${this.state.variant})`}}>Stripe</b>, <b style={{color: `rgb(${this.state.variant})`}}>Firebase</b>.
