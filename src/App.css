@@ -199,6 +199,13 @@ footer {
   font-size: 19px;
 }
 
+@media (max-width: 380px) {
+  .multi-column {
+   display: flex;
+   flex-direction: column;
+  }
+}
+
 @media (max-width: 500px) {
   .container {
       text-align: center;

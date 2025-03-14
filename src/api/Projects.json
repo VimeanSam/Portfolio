@@ -1,7 +1,7 @@
 [
     {"title": "6CardsGolf", 
-      "githubLink": "https://github.com/VimeanSam/6CardsGolf",
-      "description": "A real-time multiplayer web version of 6 cards golf card game. I programmed the backend in node.js, organize MongoDB for storage, manage socket.io for player turns, connection, disconnection, design client interface using React.js, deployed on AWS using NGINX, and develop various card themes using photoshop.",
+      "githubLink": "https://github.com/VimeanSam/sixcardsgolf",
+      "description": "A real-time multiplayer web version of 6 cards golf card game. I constructed the backend in node.js, organized MongoDB for storage, managed socket.io for player turns, connection, disconnection, designed client interface using React.js, deployed on AWS using NGINX, and develop various card themes using photoshop.",
       "pics": ["golf_1", "golf_2", "golf_3", "golf_4", "golf_5", "golf_6", "golf_7"],
       "mainpic": "golf_5",
       "skills": "Node.js, Express, React.js, Socket.IO, MongoDB, AWS, NGINX",
@@ -15,19 +15,19 @@
       "skills": "HTML, CSS, Bootstrap, Node.js, Express, MySQL",
       "link": ""
     },
+    {"title": "Cinemarker", 
+      "githubLink": "https://github.com/VimeanSam/CineMarker",
+      "description": "A movie listing site that allows users to search, bookmark and find information about movies. RAPID API was used as a movie database and Next.js was used to render the client inferface and Vercel platform was utilized for deployment.",
+      "pics": ["cine_1", "cine_2", "cine_3", "cine_4", "cine_5"],
+      "mainpic": "cine_1",
+      "skills": "React.js, Next.js, Vercel",
+      "link": "https://cinemarker.vercel.app/"
+    },
     {"title": "2D Tank Game", 
       "githubLink": "https://github.com/VimeanSam/Tank-Game",
-      "description": "A 2-players 2D tank game for Software Development term project 1 written in Java. Each tanks have 3 lives and can shoot infinitely and the game is over when one player has a life of 0. A tank can shoot through a specific type of wall and can be healed by a medkit powerup.",
+      "description": "A 2-players 2D tank game for Software Development term project written in Java. Each tanks have 3 lives and can shoot infinitely and the game is over when one player has a life of 0. A tank can shoot through a specific type of wall and can be healed by a medkit powerup.",
       "pics": ["tank_1", "tank_2", "tank_3", "tank_4", "tank_5"],
       "mainpic": "tank_1",
-      "skills": "Java",
-      "link": ""
-    },
-    {"title": "Brick Breaker Game", 
-      "githubLink": "https://github.com/VimeanSam/Brick-Breaker",
-      "description": "A mixture of brick breaker and rainbow reef game written in Java. This is the final term project for Software Development. This game features a basketball and other types of objects/powerups that help the ball break through tiles to destroy a specific target.",
-      "pics": ["bb_1", "bb_2", "bb_3"],
-      "mainpic": "bb_1",
       "skills": "Java",
       "link": ""
     },
@@ -38,6 +38,14 @@
       "mainpic": "api_3",
       "skills": "Go",
       "link": ""
+    },
+    {"title": "Calculator GUI", 
+    "githubLink": "https://github.com/VimeanSam/CalculatorGUI",
+    "pics": ["calc_1", "calc_2", "calc_3", "calc_4", "calc_5", "calc_6"],
+    "description": "An implementation of a calculator that follows mathematical order of operations (PEMDAS) of infix operation to function the Graphical User Interface. This was one of my assignment from software development course.",
+    "mainpic": "calc_1",
+    "skills": "Java",
+    "link": ""
     },
     {"title": "Interpreter", 
       "githubLink": "https://github.com/VimeanSam/The-Interpreter",
