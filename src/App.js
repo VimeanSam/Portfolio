@@ -494,7 +494,7 @@ class App extends Component {
                         </b>{" "}
                         <b style={{ color: `rgb(${this.state.variant})` }}>
                           SaaS
-                        </b>
+                        </b>{" "}
                         platform with a small development team for community
                         administrators to manage data and create learning
                         contents for users.

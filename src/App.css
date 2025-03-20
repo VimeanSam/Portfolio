@@ -1,23 +1,31 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
-  background-color: #f1f1f1!important;
+  background-color: #f1f1f1 !important;
 }
-h1, h2, h3, h4, h5, h6{
-  font-weight: 500 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: 600 !important;
 }
-.category{
+.category {
   font-size: 21px;
   font-weight: 600;
 }
 
-.portfolioContainer{
+.portfolioContainer {
   padding-top: 15px;
   padding-left: 100px;
   padding-right: 100px;
 }
 
-#root{
+#root {
   height: 100%;
   margin: 0;
 }
@@ -26,15 +34,16 @@ h1, h2, h3, h4, h5, h6{
   height: 100%;
 }
 
-button, link {
+button,
+link {
   cursor: pointer;
 }
 
-.centered{
+.centered {
   text-align: center;
 }
 
-#greetings{
+#greetings {
   text-align: center;
   font-weight: 600;
   font-size: 64px;
@@ -46,17 +55,17 @@ button, link {
   padding: 10px;
 }
 
-#centered{
+#centered {
   text-align: center;
   font-size: 40px;
 }
 
-#hello{
+#hello {
   text-align: center;
   font-weight: 600;
 }
 
-#me{
+#me {
   max-width: 85%;
   max-height: 65%;
   border-radius: 50%;
@@ -68,11 +77,10 @@ button, link {
   padding: 10px;
 }
 
-.column-3{
+.column-3 {
   float: left;
   width: 70%;
   padding: 10px;
-
 }
 
 .row:after {
@@ -81,16 +89,16 @@ button, link {
   clear: both;
 }
 
-.cardTab{
+.cardTab {
   padding: 15px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
-.picture{
+.picture {
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   height: auto;
   width: 100%;
@@ -108,7 +116,7 @@ button, link {
   column-fill: balance;
 }
 
-.multi-column li{
+.multi-column li {
   font-size: 19px;
 }
 
@@ -117,7 +125,7 @@ button, link {
   background-color: #eee;
   border-radius: 5px;
   padding: 16px;
-  margin: 16px 0
+  margin: 16px 0;
 }
 
 .testimonial::after {
@@ -131,7 +139,7 @@ button, link {
   margin-right: 20px;
   margin-bottom: 20px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;
 }
 
@@ -140,20 +148,20 @@ button, link {
   margin-right: 15px;
 }
 
-.projectPic:hover{
+.projectPic:hover {
   cursor: pointer;
 }
-
 
 element.style {
   max-width: 540px;
 }
 
-.mb-3, .my-3 {
-  margin-bottom: 1rem!important;
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
 }
 
-.projectImg:hover{
+.projectImg:hover {
   cursor: pointer;
 }
 
@@ -183,7 +191,7 @@ details > p {
   border-radius: 5px;
 }
 
-.linkIcon:hover{
+.linkIcon:hover {
   cursor: pointer;
   color: green !important;
 }
@@ -195,58 +203,56 @@ footer {
   color: white;
 }
 
-.bullet-point li{
+.bullet-point li {
   font-size: 19px;
 }
 
 @media (max-width: 380px) {
   .multi-column {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media (max-width: 500px) {
   .container {
-      text-align: center;
+    text-align: center;
   }
   .container img {
-      margin: auto;
-      float: none;
-      display: block;
+    margin: auto;
+    float: none;
+    display: block;
   }
 }
-
 
 @media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
-  .column-3{
+  .column-3 {
     width: 100%;
   }
-  #me{
+  #me {
     max-width: 45%;
     max-height: 45%;
   }
 }
 
-@media screen and (max-width: 1000px){
-  #greetings{
+@media screen and (max-width: 1000px) {
+  #greetings {
     text-align: center;
     font-weight: 600;
     font-size: 3px;
     line-height: 60px;
   }
-  #centered{
+  #centered {
     text-align: center;
     font-size: 24px;
   }
-
 }
 
-@media only screen and (max-width: 1300px){
-  .portfolioContainer{
+@media only screen and (max-width: 1300px) {
+  .portfolioContainer {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -256,7 +262,7 @@ footer {
   .column {
     width: 40%;
   }
-  .column-3{
+  .column-3 {
     width: 60%;
   }
 }
@@ -311,19 +317,19 @@ header .overlay {
   z-index: 1;
 }
 
-.text{
+.text {
   font-size: 2vw;
 }
 
-.control{
-    text-align: center;
+.control {
+  text-align: center;
 }
 
 .arrow {
-    display: inline-block;
-    padding: 10px 16px;
-    font-size: 18px;
-    color: white;
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 18px;
+  color: white;
 }
 
 .arrowDisabled {
@@ -334,7 +340,7 @@ header .overlay {
   background-color: gray;
 }
 
-.arrowDisabled:hover{
+.arrowDisabled:hover {
   cursor: default;
 }
 
@@ -346,14 +352,14 @@ header .overlay {
 .round {
   border-radius: 50%;
 }
-@media screen and (max-width: 500px){
-  #me{
+@media screen and (max-width: 500px) {
+  #me {
     max-width: 80%;
     max-height: 80%;
   }
 }
-@media screen and (max-width: 380px){
-  .text{
+@media screen and (max-width: 380px) {
+  .text {
     font-size: 8vw;
   }
 }
